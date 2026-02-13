@@ -157,4 +157,42 @@ button:hover {
 }
 
 .fadeOut {
-  animation: fade
+  animation: fadeOut 0.5s forwards;
+}
+
+@keyframes fadeOut {
+  from { opacity: 1; transform: translateX(0); }
+  to { opacity: 0; transform: translateX(20px); }
+}
+
+#report p {
+  background: #2c2c2c;
+  padding: 10px;
+  margin: 10px 0;
+  border-left: 4px solid #f1c40f;
+  animation: popIn 0.6s ease-in-out;
+}
+
+@keyframes popIn {
+  from { transform: scale(0.8); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+footer {
+  background: #0a0a0a;
+  color: #ffffff;
+  text-align: center;
+  padding: 1em;
+  border-top: 2px solid #f1c40f;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
