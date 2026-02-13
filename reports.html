@@ -6,7 +6,7 @@
   <title>Reports - Financial Tracker</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body id="reports-page">
   <header>
     <h1>Reports</h1>
     <nav>
@@ -17,9 +17,15 @@
   </header>
 
   <main>
-    <section>
+    <section class="hero">
+      <h2>Spending Insights</h2>
+      <p>See where your money goes — categorized breakdowns below</p>
+    </section>
+
+    <section class="card">
       <h2>Spending by Category</h2>
       <div id="report"></div>
+      <button id="clearData">Clear All Expenses</button>
     </section>
   </main>
 
