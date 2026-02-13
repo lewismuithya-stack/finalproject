@@ -6,7 +6,7 @@
   <title>Financial Tracker - Home</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body id="home-page">
   <header>
     <h1>Financial Tracker</h1>
     <nav>
@@ -17,9 +17,15 @@
   </header>
 
   <main>
+    <section class="hero">
+      <h2>Track Your Finances</h2>
+      <p>Stay in control of your spending with Lewis Muithya’s Financial Tracker</p>
+      <a href="add.html" class="cta-btn">Add Your First Expense</a>
+    </section>
+
     <section>
       <h2>All Expenses</h2>
-      <ul id="expenseList"></ul>
+      <ul id="expenseList" class="card"></ul>
       <p id="total"></p>
     </section>
   </main>
