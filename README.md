@@ -21,6 +21,15 @@ This project allows users to add, view, categorize, and manage expenses with per
 ---
 
 ## 📂 Project Structure
+project/
+│── index.html
+│── reports.html
+│── add.html
+│── style.css
+│── script.js
+│── README.md
+│── LICENSE
+
 
 ## Deployment
 This project is deployed using **GitHub Pages**.  
